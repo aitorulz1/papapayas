@@ -10,7 +10,7 @@ export default function Nav() {
       <ul>
         {Menu.map((item) => (
           //   <NavItems key={item.id} item={item} />
-          <li>{item.name}</li>
+          <li key={item.id}>{item.name}</li>
         ))}
       </ul>
     </div>
